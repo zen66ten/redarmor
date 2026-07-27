@@ -1,0 +1,6 @@
+/redarmor
+/redarmor.exe
+*.test
+*.out
+*SPEC.md
+claude.md

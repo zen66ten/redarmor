@@ -4,12 +4,6 @@ A TLS certificate expiry tracker. Redarmor connects to a list of hosts, reads
 the served certificate, and classifies it as OK, Warning, Critical, or
 Expired based on days remaining until `NotAfter`.
 
-Named after the Red Armor from Quake 3 Arena: 100 points of protection that
-respawns every 25 seconds. If you don't keep picking it up, your protection
-lapses and you're exposed. A TLS certificate works the same way: renew it on
-schedule or the protection lapses. Redarmor watches whether your armor is
-still up.
-
 ## Status
 
 v1 in progress: sequential host checker, stdlib only.
